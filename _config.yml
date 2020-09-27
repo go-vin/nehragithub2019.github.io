@@ -1,0 +1,105 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Personal info
+name: Pravin Mishra
+title: Senior Cloud Architect
+interested in: Contract Opportunity
+Start date: Immediately, I’m actively applying 
+email: pravinmishra88@gmail.com
+phone: +358-505139550
+website: https://railskey.wordpress.com/
+
+# Social links
+twitter_username: pravinmishra88
+github_username:  diatmpravin
+dribbble_username: 
+facebook_username: pravinmishra88
+flickr_username: 
+instagram_username: 
+linkedin_username: pravin-mishra-74a66910
+xing_username: 
+pinterest_username: 
+youtube_username: thecloudadvisory
+googleplus_username: 
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/pravinmishra.jpg
+about_content: | # this will include new lines to allow paragraphs
+  I'm working in the Cloud Enablement team as a Senior Cloud Architect. I'm an AWS certified Solutions Architect - Professional, 
+  certified Developer and certified SysOps Administrator. I'm also 
+  Google Cloud Certified trainer, Google Cloud Certified - Professional Cloud Architect and Azure certified (exam 70-533). I'm interested in 
+  cloud native solutions and all aspects of the cloud from infrastructure to applications.
+
+  I am continuously learning and updating myself with stamp of certifications on the latest pursuing technology
+
+  <mark>My YouTube Channel:</mark>
+  - https://www.youtube.com/thecloudadvisory
+
+  <mark>Trainer Certifications:</mark>
+  - Google Cloud Certified Trainer
+
+  <mark>Certifications:</mark>
+  - Exam 70-533: Implementing Microsoft Azure Infrastructure Solutions
+  - Google Cloud Certified - Professional Cloud Architect
+  - AWS Certified Solutions Architect - Professional
+  - AWS Certified SysOps Administrator - Associate
+  - AWS Certified Solutions Architect - Associate
+  - AWS Certified Developer – Associate
+
+  <mark>Public Cloud Training:</mark> 
+  - AWS Well Architected Review Bootcamp: Organized by AWS
+  - AWS Professional Services: Cloud Migration Best Practices
+  - AWS Solutions Training for Partners: Technical Foundations
+  - AWS Solutions Training for Partners: Big Data and Analytics 
+  - AWS Solutions Training for Partners: AWS for Windows
+  - AWS Classroom Training: Architecting on AWS
+  - AWS Solutions Training for Partners: SAP on AWS - Technical   
+  - GCP: Cloud OnBoard - Helsinki
+  
+# Experience Section
+# experience_title: Experience #(Use this to override about experience section title)
+
+# Projects Section
+# projects_title: Projects #(Use this to override about projects section title)
+
+# Education Section
+# education_title: Education #(Use this to override about education section title)
+
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+more_content: | # this will include new lines to allow paragraphs
+  
+  When I’m not at my desk I am very active and spend most of my time outdoors. I do a lot of sports such as running, trail biking, road cycling, as well as trying to make time for kitchen food.
+
+  I’m interested in photography and videography as I like to be creative, this is mainly through sport but I enjoy landscape and abstract photography too. I like to showcase my work on my youtube channel, twitter and facebook.
+
+
+# Footer
+footer_show_references: true
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
